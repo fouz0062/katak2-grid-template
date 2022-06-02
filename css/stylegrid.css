@@ -205,7 +205,7 @@ a {
 
 .grid6 {
     grid-template-columns: auto auto auto auto;
-    gap: 10px 10px;
+    gap: 30px 15px;
 }
 
 .fonti {
@@ -229,20 +229,23 @@ a {
 
 @media only screen and (max-width: 575px) {
     .container {
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
         margin-top: 10px;
+    }
+    .grid {
+        align-items: end;
     }
     .grid div img {
         padding: 2px;
     }
     .gridmenu {
-        margin: 8px 2px;
+        margin: 10px 2px;
         justify-content: end;
     }
     .gridmenu div {
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding-left: 15px;
     }
     .gridbanner figure {
@@ -287,13 +290,13 @@ a {
         font-size: 1.5rem;
     }
     .grid1 {
-        justify-content: space-around;
-        line-height: 0.8;
+        justify-content: space-evenly;
+        line-height: 1;
     }
     .grid6 {
         grid-template-columns: auto auto auto;
         /* gap: 5px 8px; */
-        gap: 10px 0px;
+        gap: 10px;
         justify-content: space-around;
     }
     .grid6 img {
@@ -306,16 +309,16 @@ a {
 
 @media only screen and (max-width: 370px) {
     .container {
-        width: 100%;
-        margin: 0 auto;
+        width: 95%;
+        /* margin: 0 auto;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 10px; */
     }
-    .grid div img {
-        padding: 2px;
+    .grid {
+        align-items: center;
     }
     .gridmenu {
-        margin: 0;
+        /* margin: 0; */
         margin-top: 3px;
         justify-content: end;
     }
@@ -358,7 +361,7 @@ a {
         padding: 0 3px;
     }
     .grid2 div img {
-        width: 100%;
+        width: 95%;
     }
     .grid3,
     .grid4 {
@@ -374,7 +377,10 @@ a {
         font-size: 1.5rem;
     }
     .grid1 {
-        justify-content: space-around;
+        justify-content: space-evenly;
+    }
+    .grid1 div {
+        font-size: 1rem;
     }
     .grid6 {
         grid-template-columns: auto auto;
@@ -382,6 +388,6 @@ a {
         justify-content: space-around;
     }
     .grid6 img {
-        width: 180px;
+        width: 160px;
     }
 }
