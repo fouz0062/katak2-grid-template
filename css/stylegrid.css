@@ -234,6 +234,9 @@ a {
         text-align: center;
         margin-top: 10px;
     }
+    .media {
+        width: 100%;
+    }
     .grid {
         align-items: end;
     }
@@ -313,6 +316,9 @@ a {
         /* margin: 0 auto;
         text-align: center;
         margin-top: 10px; */
+    }
+    .media {
+        width: 100%;
     }
     .grid {
         align-items: center;
